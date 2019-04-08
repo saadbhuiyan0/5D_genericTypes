@@ -21,67 +21,67 @@ in [UserSavedByCompiler](https://github.com/stuyvesant-cs/solutionsHolmes/blob/2
 
 - definition that a class / type that is parameterized by a generic type, `T`:
 ```
-your exemplifying line from the Pair example here
+public class Pair<T> 
 ```
-in [class](URL)
+in [Pair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/Pair.java#L8)
 
 
 - declaration of a variable that can hold a reference to an instance
 of such a class:
 ```
-your exemplifying line from the Pair example here
+Pair<String> mm;
 ```
-in [class](URL)
+in [UserOfPair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/UserOfPair.java#L15)
 
 
 - assignment to such a variable:
 ```
-your exemplifying line from the Pair example here
+mm = minmax( many);
 ```
-in [class](URL)
+in [UserOfPair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/UserOfPair.java#L16)
 
 
 - declaration of a method that returns an instance of such a type:
 ```
-your exemplifying line from the Pair example here
+public static Pair<String> minmax( String[] a) {
 ```
-in [class](URL)
+in [UserOfPair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/UserOfPair.java#L30)
 
 
 - successful instantiation of an instance of such a class:
 ```
-your exemplifying line from the Pair example here
+return new Pair<String>(min, max);
 ```
-in [class](URL)
+in [UserOfPair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/UserOfPair.java#L46)
 
 
 - *un*successful instantiation of an instance of such a class,
 caught by the compiler:
 ```
-your exemplifying line from the Pair example here
+new Pair<String>( "a string", Integer.valueOf( 7));
 ```
-in [class](URL)
+in [UserSavedByCompiler](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/UserSavedByCompiler.java#L12)
 
 
 - a variable that can hold a reference to an instance of the generic type
 in a class / type that is parameterized by a generic type:
 ```
-your exemplifying line from the Pair example here
+private T first;
 ```
-in [class](URL)
+in [Pair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/Pair.java#L10)
 
 
 - the declaration of a method that accepts a parameter of a generic type:
 ```
-your exemplifying line from the Pair example here
+public Pair( T first, T second) { 
 ```
-in [class](URL)
+in [Pair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/Pair.java#L13)
 
 
 - the declaration of a method that returns a value of a generic type:
 ```
-your exemplifying line from the Pair example here
+ public T getFirst()  { return first; }
 ```
-in [class](URL)
+in [Pair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/Pair.java#L18)
 
 
