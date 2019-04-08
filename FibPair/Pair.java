@@ -17,4 +17,8 @@ public class Pair<T>
 
     public T getFirst()  { return first; }
     public T getSecond() { return second; }
+
+    public String toString() {
+        return "[" + first + "," + second + "]";
+    }
 }

@@ -71,7 +71,7 @@ private T first;
 in [Pair](https://github.com/stuyvesant-cs/solutionsHolmes/blob/650c94c91da1ad1b815e13c35c5816c2419446e5/2019-04-05_PairOfGenerics/Pair.java#L10)
 
 
-- the declaration of a method that accepts a parameter of a generic type:
+- the declaration of a method or constructor that accepts a parameter of a generic type:
 ```
 public Pair( T first, T second) { 
 ```
